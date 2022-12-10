@@ -36,6 +36,37 @@ _Additional:_
 
 ---
 
+**Code:**
+an example of working with the context and the bind function , as a result , one small well - known phrase is output
+
+```
+const person = {
+    surname: 'Stark',
+    know: function(word, name){
+        console.log(`You ${word} Know ${name} ${this.surname}`)
+    }
+}
+const right_person = {surname: 'Snow'}
+const phrase = person.know.bind(right_person, ...['Nothing', 'Jon'])
+phrase()
+```
+
+---
+
+**Education:**
+
+- Belarusian-Russian University
+  - Computer Science and Computer Engineering
+
+---
+
+**Courses:**
+
+- SummerBootCampJava
+- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+---
+
 **Languages**
 
 - Russian - native speaker.
