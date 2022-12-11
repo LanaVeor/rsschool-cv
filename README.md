@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://LanaVeor.github.io/rsschool-cv/cv
+https://LanaVeor.github.io/rsschool-cv/
